@@ -7,6 +7,9 @@
   max-width: 71.25rem;
   width: 100%;
 }
+body{
+  background-color: #0f0f0f;
+}
 
 .grid {
   display: -webkit-box;
@@ -555,7 +558,10 @@ body {
   font-size: 1.125rem;
   line-height: 1.5;
   color: #787878;
-  background: #fff;
+  background-image: url('abcd.gif');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
   text-rendering: optimizeLegibility;
 }
 
@@ -564,20 +570,22 @@ ul li {
 }
 
 a {
-  color: #787878;
+  color: white;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #2e2e2e;
+  color: white;
 }
 a.active {
-  color: #2e2e2e;
+  color: white;
 }
 
 nav {
-  padding: 2.5rem 0 2.5rem 0;
+  background: #3b3838;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem;
 }
 nav ul {
   display: -webkit-box;
@@ -593,7 +601,7 @@ nav li:nth-child(2) {
 }
 
 #highlight {
-  color: #ea8478;
+  color: #f3eeed;
   font-size: 1.25rem;
 }
 
@@ -632,21 +640,21 @@ img:hover {
   white-space: nowrap;
   display: none;
   padding: 1rem;
-  background: #fff;
+  background: #1c1b1b;
   font-weight: 400;
   margin-top: 1.25rem;
   margin-left: -2rem;
 }
 
 .title {
-  color: #2e2e2e;
+  color: #eee;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 .category {
   font-size: 1rem;
-  color: #787878;
+  color: #f3eeed;
 }
 
 .img-content {
@@ -663,7 +671,7 @@ img:hover {
 
 footer {
   padding: 1rem 0;
-  background: #f7f7f7;
+  background: #0f0f0f;
   text-align: center;
 }
 
